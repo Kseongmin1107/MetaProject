@@ -25,3 +25,5 @@ Logs/
 .DS_Store
 # Linux generated files
 *.meta~
+# Unity Editor Layouts (User-specific)
+UserSettings/*.dwlt
