@@ -21,6 +21,8 @@
 
 싱글톤 GameManager: 씬 전환 시에도 데이터를 유지하고 게임 전반의 흐름을 관리하는 GameManager 싱글톤 패턴이 적용되어 있습니다.
 
+
+
 📁 프로젝트 구조 (핵심 스크립트)
 Assets/Scripts/
 
@@ -30,6 +32,7 @@ GameManager.cs:
 
 씬 전환 시 파괴되지 않습니다 (DontDestroyOnLoad).
 
+
 MainMapUIController.cs:
 
 메인 맵 씬(MetaverseMainScene)의 UI를 관리합니다.
@@ -38,15 +41,18 @@ MainMapUIController.cs:
 
 미니게임 결과 패널을 제어하여 필요한 시점에만 보이도록 합니다.
 
+
 MiniGameTriggerZone.cs:
 
 메인 맵에 배치된 특정 구역(예: 나무 오브젝트)에 플레이어가 진입하면 미니게임 씬(FlappyPlaneScene)으로 전환을 트리거합니다.
+
 
 FlappyPlaneGameManager.cs:
 
 미니게임 씬(FlappyPlaneScene)의 전반적인 진행(점수, 게임 오버)을 관리합니다.
 
 게임 종료 시 GameManager에 점수와 결과를 전달하고 메인 맵으로 돌아갑니다.
+
 
 Player.cs (미니게임):
 
