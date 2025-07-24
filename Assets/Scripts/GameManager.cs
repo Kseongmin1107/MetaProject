@@ -127,12 +127,4 @@ public class GameManager : MonoBehaviour
         Debug.Log($"GameManager: Loaded Highest Score: {highestMiniGameScore}");
     }
 
-    public void ResetGameData()
-    {
-        PlayerPrefs.DeleteAll();
-        highestMiniGameScore = 0;
-        currentMiniGameScore = 0;
-        didMiniGameSucceed = false;
-        Debug.Log("GameManager: All game data reset.");
-    }
 }
