@@ -60,6 +60,7 @@
  
 **`시연**:
 
-![Uploading bandicam 2025-07-24 13-34-52-996.gif…]()
+![bandicam 2025-07-24 13-34-52-996](https://github.com/user-attachments/assets/1eaea438-657c-44c8-b4ab-bce3147f5f88)
+
 
 
