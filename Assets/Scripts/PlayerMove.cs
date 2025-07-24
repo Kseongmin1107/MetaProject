@@ -71,9 +71,7 @@ public class PlayerMove : MonoBehaviour
 
             targetMousePosition = worldPos;
             isMovingToMouseClick = true; 
-            Debug.Log($"마우스 클릭 목표 설정: {targetMousePosition}");
 
-            // 여기에 마우스 클릭 시 수행할 '특정 행동' 로직을 추가
             
         }
 
