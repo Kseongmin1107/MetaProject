@@ -9,11 +9,11 @@ public class GameManager : MonoBehaviour
     static GameManager instance;
     public static GameManager Instance { get { return instance; } }
 
-    [Header("Scene Settings")]
+    
     public string mainMapSceneName = "MetaverseMainScene"; // 메인 맵 씬 이름
     public string miniGameSceneName = "FlappyPlaneScene"; // 미니게임 씬 이름
 
-    [Header("Mini-Game Data")]
+    
     public int currentMiniGameScore = 0; // 현재 미니게임에서 획득한 점수
     public int highestMiniGameScore = 0; // 저장된 최고 점수
     public bool didMiniGameSucceed = false; // 미니게임 성공 여부
